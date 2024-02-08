@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(110, 112, 114);
+}
+
+/* Header Styles */
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Section Styles */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading Styles */
+section h2 {
+    color: #004080;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styles */
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* List Styles */
+section ol, section ul {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+/* Link Styles */
+a {
+    color: #004080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#StudentTestimonials {
+    background-color: #666dd8;
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block; /* Display testimonials in a row */
+    vertical-align: top; /* Align testimonials at the top */
+}
+
+.testimonial img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin: 0;
+}
